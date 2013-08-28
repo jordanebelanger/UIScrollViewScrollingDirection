@@ -17,8 +17,7 @@ Saves the scrollViews content offset before dragging begins allowing the scrolli
 Having saved the scrollViews content offset before dragging begins allows the scrolling direction to be determined in the other delegate methods like this
 
 ```objc
-- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
-{
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
   if (scrollView.scrollDirectionX == ScrollDirectionRight) {
     //Do something with your views etc
   }
