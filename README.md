@@ -6,7 +6,7 @@ This is a drop in category for UIScrollView that enable the user to determine th
 
 It should be used with UIScrollViewDelegate in this fashion : 
 
-Saves the scrollViews content offset before dragging begins allowing the scrolling direct to be determined in the other delegate methods like so
+Saves the scrollViews content offset before dragging begins.
 
 ```objc
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
